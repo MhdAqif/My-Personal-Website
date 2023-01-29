@@ -1,0 +1,40 @@
+#footer{
+    background-image: linear-gradient(to right,#17a2b8,white);
+}
+
+#footer .footer{
+display: flex;
+min-height: 20vh;
+max-width: 100%;
+width: 100%;
+flex-direction: column;
+padding: 50px auto;
+}
+
+#footer .footer h1{
+font-size: 3rem;
+font-weight: bolder;
+}
+
+#footer .footer p{
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+#footer .icons{
+margin: 30px auto;
+display: flex;
+flex-direction: row;
+animation: slide-in 1s ease forwards;
+}
+
+#footer .icons .icon{
+margin: auto 30px;
+filter: grayscale(1);
+transition: 0.3s;
+}
+
+#footer .icons .icon:hover{
+transform: scale(1.5);
+filter: grayscale(0);
+}
